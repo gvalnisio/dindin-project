@@ -454,6 +454,7 @@ a {
 .curso-linha {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .curso-linha-imagem {
@@ -617,4 +618,171 @@ p {
 #botao-inicio:hover {
     color: #FFFFFF;
     background-color: #FF4081;
+}
+
+/* responsividade para tablet */
+
+@media only screen and (max-width:768px) {
+    
+    /* header e footer */
+    .imagem-footer {
+        width: 80%;
+    }
+
+    .botao-footer a {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+
+    /* inicio */
+
+    .inicio-top {
+        flex-direction: column-reverse;
+        margin-top: 6%;
+    }
+
+    .inicio-top-texto {
+        text-align: center;
+    }
+
+    .inicio-top-texto h2 {
+        font-size: 23px;
+        margin: 2% auto;
+        margin-bottom: 4%;
+    }
+
+    .inicio-top-imagem img {
+        max-width: 350px;
+        margin-bottom: 3%;
+    }
+
+    .card-conheca-cursos {
+        flex-direction: column;
+    }
+
+    .card-conheca-curso h3 {
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+
+    .borda-responsiva {
+        align-self: center;
+        width: 100%;
+        border: 2px solid #C4C4C4;
+    }
+
+    .inicio-meio h1 {
+        text-align: center;
+    }
+
+    .inicio-bottom h1 {
+        align-self: center;
+    }
+
+    .inicio-bottom-post h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .inicio-bottom-post p {
+        text-align: center;
+    }
+
+    /* post */
+
+    .post h1 {
+        font-size: 40px;
+    }
+
+    /* contato */
+
+    .container-form {
+        gap: 100px;
+        margin: 40px 5%;
+    }
+
+    .contato-imagem {
+        width: 50%;
+        height: 300px;
+        align-self: center;
+    }
+
+    /* cursos */
+
+    .cursos-imagem img {
+        width: 200px;
+        margin: 30% auto;
+    }
+
+    .cursos-texto h3 {
+        font-size: 30px;
+        margin-bottom: 2%;
+    }
+
+    .cursos-texto p {
+        font-size:16px;
+        margin-bottom: 5%;
+    }
+
+    .botao-comecar {
+        font-size: 18px;
+        padding: 1% 5%;
+    }
+
+    /* blog */
+
+    .blog-top {
+        gap: 2%;
+    }
+
+    .blog-top-texto h1 {
+        font-size: 35px;
+    }
+
+    .blog-top-texto p {
+        font-size: 18px;
+    }
+
+    .blog-top-img img {
+        height: 250px;
+    }
+
+    .blog-post a h4 {
+        font-size: 25px;
+    }
+
+    .blog-post p {
+        font-size: 15px;
+    }
+
+    /* curso */
+
+    .curso-top-texto h1 {
+        font-size:40px;
+    }
+
+    .curso-top-texto p {
+        font-size: 18px;
+    }
+    
+    .curso-top-img img {
+        width: 250px;
+    }
+
+    .curso-linha-imagem img {
+        width: 200px;
+    }
+
+    .curso-linha-texto {
+        margin: 5%;
+    }
+
+    .curso-linha-texto h1 {
+        font-size: 25px;
+    }
+
+    .curso-linha-texto p {
+        font-size: 15px;
+    }
+
 }
