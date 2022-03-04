@@ -786,3 +786,271 @@ p {
     }
 
 }
+
+/* responsividade para celular */
+
+@media only screen and (max-width: 480px) {
+
+    /* header e footer */
+
+    .wrapper-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrapper-header div {
+        border-bottom: 3px solid #FFFFFF;
+        border-width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .wrapper-header div a img {
+        width: 200px;
+        padding-bottom: 10px;
+    }
+
+    .menu-item {
+        /* display: flex;
+        flex-wrap: row wrap;
+        justify-content: center; */
+        line-height: 100%;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    li {
+        text-align: center;
+        margin: auto 7%;
+    }
+
+    .menu-item-link {
+        font-size: 15px;
+        margin: auto 5%;
+    }
+
+
+    .wrapper-footer {
+        flex-direction: column;
+    }
+
+    .imagem-footer {
+        width: 200px;
+    }
+
+    .menu-footer ul {
+        margin: 10%;
+    }
+
+    .botao-footer {
+        margin: 3%;
+    }
+
+    .botao-footer a {
+        width: 200px;
+        padding: 8px 50px;
+    }
+
+    /* inicio */
+
+    .inicio-top-texto h1 {
+        font-size: 32px;
+    }
+
+    .inicio-top-texto h2 {
+        font-size: 19px;
+        margin: 20px auto;
+    }
+
+    .inicio-top-texto a {
+        font-size: 21px;
+        margin: auto;
+    }
+
+    .inicio-top-imagem img {
+        max-width: 225px;
+        margin-bottom: 3%;
+    }
+
+    .card-conheca h1 {
+        font-size: 30px;
+        line-height: 100%;
+        margin: 15px;
+    }
+
+    .inicio-meio h1 {
+        font-size: 30px;
+    }
+
+    .depoimentos-linha {
+        flex-direction: column;
+    }
+
+    .depoimentos-card {
+        flex-direction: column;
+        margin: 25px auto;
+        text-align: center;
+    }
+
+    .depoimentos-card-texto p {
+        margin: 10px;;
+    }
+
+    .inicio-bottom {
+        text-align: center;
+    }
+
+    .inicio-bottom h1 {
+        font-size: 30px;
+    }
+
+    .inicio-bottom-posts {
+        flex-direction: column;
+    }
+
+    .inicio-bottom-post {
+        margin: 15px auto;
+    }
+
+    #botao-inicio {
+        font-size:20px;
+        margin-bottom: 15%;
+        padding: 0.2% 10%;
+    }
+
+    /* post */
+
+    .post h1 {
+        font-size: 30px;
+        line-height: 100%;
+        margin: 5% auto;
+        margin-top: 15%;
+    }
+
+    .post h6 {
+        font-size: 15px;
+    }
+
+    .texto-post p {
+        font-size: 16px;
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+
+    .texto-post h3 {
+        font-size:21px;
+        margin: 10px auto;
+    }
+
+    /* contato */
+
+    .contato-imagem {
+        background-image: none;
+    }
+
+    .form form {
+        justify-content: center;
+    }
+
+    /* cursos */
+
+    #cursos h1 {
+        font-size: 45px;
+    }
+
+    .cards-cursos {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .cursos-imagem img {
+        margin: 20px auto;
+    }
+
+    .cursos-texto p {
+        font-size:15px;
+        line-height: 18px;
+    }
+
+    .botao-comecar {
+        margin: 30px;
+    }
+
+    /*blog */
+
+    .blog-top {
+        flex-direction: column-reverse;
+    }
+
+    .blog-top-img img {
+        height: 200px;
+    }
+
+    .blog-top-texto h1 {
+        font-size: 30px;
+        text-align: center;
+        margin: 15px;
+    }
+
+    .blog-top-texto p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .blog-linha {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .blog-post {
+        width: 80%;
+    }
+
+    .blog-post img {
+        width: 100%;
+    }
+
+    .blog-post a h4 {
+        font-size: 20px;
+    }
+
+    .blog-post p {
+        font-size:13px;
+    }
+
+    /* curso */
+
+    .curso-top {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .curso-top-texto h1 {
+        font-size: 35px;
+    }
+
+    .curso-top-texto p {
+        font-size: 15px;
+    }
+
+    .curso-top-img img {
+        margin: 30px auto;
+    }
+
+    .curso-linha {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .curso-linha-imagem {
+        margin: auto;
+        margin-top: 15px;
+    }
+}
